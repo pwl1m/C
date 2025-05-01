@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Temperatura</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+    
+    <script src="tratamento.js"></script>
+</head>
+<body>
+    <div id="nav">NAV</div>
+    <div id="container">
+        <div id="sidebar">
+            <h2>Leituras</h2>
+            <ul id="temperatureList"></ul>
+        </div>
+        <div id="main">
+            <div class="section">
+                <div class="temperatureDisplay" id="temperatureDisplay1">No data loaded</div>
+                <canvas id="temperatureChart1" "></canvas>
+            </div>
+            <div class="section">
+                <div class="temperatureDisplay" id="temperatureDisplay2">No data loaded</div>
+                <canvas id="temperatureChart2" ></canvas>
+            </div>
+            <div class="section">
+                <div class="temperatureDisplay" id="temperatureDisplay3">No data loaded</div>
+                <canvas id="temperatureChart3" ></canvas>
+            </div>
+            <div class="section">
+                <div class="temperatureDisplay" id="temperatureDisplay4">No data loaded</div>
+                <canvas id="temperatureChart4" ></canvas>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
